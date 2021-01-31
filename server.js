@@ -10,4 +10,5 @@ app.get("/", function(req, res) {
     res.send("<html><body><h1>Hello Hello Thank you for connecting!</h1></body></html>");
 });
 
+// Listen on the default HTTP port - 80
 app.listen(80);
